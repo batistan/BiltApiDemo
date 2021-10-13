@@ -16,6 +16,9 @@ gradle-app.setting
 # From https://github.com/github/gitignore/blob/master/Java.gitignore
 *.class
 
+# JENV
+.java-version
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

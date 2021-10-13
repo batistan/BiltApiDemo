@@ -11,6 +11,7 @@ repositories {
 dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-hibernate-reactive'
+    implementation 'io.quarkus:quarkus-agroal'
     implementation 'io.quarkus:quarkus-rest-client-reactive'
     implementation 'io.quarkus:quarkus-logging-json'
     implementation 'io.quarkus:quarkus-jdbc-mysql'
